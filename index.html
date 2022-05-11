@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ens">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">          
+    <link rel="stylesheet" href="./estilos.css">
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <title>Podcast Blog</title>
+</head>
+<body> 
+    <div>
+      <nav class="nav-wrapper blue-grey">
+          <div class="container-fluid">
+            <a href="#" class="brand-logo">
+              <img src="./imagenes/the-best-quality-headset-logo-free-vector.jpg" alt="logo" height="50" style="vertical-align: middle;" class="circle">
+            </a>
+           <ul class="right hide-on-med-and-down">
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+           </ul>
+           <a href="" data-target="responsive-menu" class="sidenav-trigger right">
+               <i class="material-icons">menu</i>
+          </a>
+          </div>
+        </nav>
+    </div>
+
+
+   <!--Inicio Carrousel-->
+   <div class="container">
+       <div class="row">
+           <div class="col s12">
+               <h1 class="center-align titulo">Bienvenido</h1>
+
+
+               <div class="carousel center-align">
+                   <div class="carousel-item">
+                       <img src="./imagenes/auriculares-borroso.webp" alt="">
+                   </div>
+                   <div class="carousel-item">
+                      <img src="./imagenes/gaming.jpg" alt="">
+                   </div>
+                   <div class="carousel-item">
+                      <img src="./imagenes/new-podcast.jpg" alt="">
+                   </div>
+
+
+
+
+                </div>
+           </div>
+       </div>
+   </div>
+   <!--Fin Carrousel-->
+   <!--Reproductor-->
+   <div class="reproductor">
+    <div class="cancion" style="margin-top: 5em;">
+        <div class="cancion__caratula">
+            <img class=""   src=".//caratula/WhatsApp Image 2022-04-19 at 7.31.02 AM.jpeg" alt="">
+            <div class="disco">
+                <i class="fa-solid fa-music"></i>
+            </div>
+            <p class="cancion__titulo">Dale Play</p>
+        </div>
+        <div class="reproduccion">
+            <div class="reproduccion__progreso">
+                <input type="range" value="0" min="0" max="0" step="1" >
+                <time> --:--/ --:-- </time>
+            </div>
+            <div class="reproduccion__controles">
+                <div class="controles__reproduccion">
+                    <button type="button" id="btnAtras"><i class="fa-solid fa-backward"></i></button>
+                    <button type="button" id="btnReproducir"><i class="fa-solid fa-play"></i></button>
+                    <button type="button" id="btnAdelante"><i class="fa-solid fa-forward"></i></button>
+                </div>
+                <div class="controles__volumen">
+                    <button type="button" name="button"><i class="fa-solid fa-volume-high"></i></button>
+                    <input type="range" value="100" min="0" max="100" step="1" class="oculto">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+   
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script src="main.js"></script>
+ <script src="./podcasts/podcasts.js"></script>
+ <script src="https://kit.fontawesome.com/beb587f537.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
